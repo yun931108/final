@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager</title>
+    <style>
+        @import url("../assets/css/finall.css");
+        @import url("../assets/css/tp.css");
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col" style="padding-top: 5%;">
+                <h2>所有訂單：</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-">
+                <img src="../assets/images/user.jpg" width="100px">
+            </div>
+            <div class="col"></br>
+                <h4>username</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                </br>
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/images/j_natural_1.jpg" class="card-img-top" title="click for more info"> </a>
+                    <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;"><b>國中自然讀書筆記</b></h4>
+                        <p class="card-text" style="text-align: center;">NT300</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col" style="padding-top:10%;">
+                <h2>商品修改：</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form method="POST" name="checkgoods">
+                    <input type="checkbox" name="checkbotton" value="">
+                    <!--value值是來指定當使用者勾選此方塊時要傳送給遠端伺服器什麼值-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/images/j_natural_1.jpg" class="card-img-top" title="click for more info">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;"><b>國中自然讀書筆記</b></h4>
+                            <p class="card-text" style="text-align: center;">NT300</p>
+                        </div>
+                    </div>
+                </form>
+                </br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col" style="text-align: right;">
+                <form method="POST" name="Add_Delete_goods" action="">
+                    <!--https://pjchender.blogspot.com/2015/04/php_28.html-->
+                    <input type="submit" name="addbotton" value="新增">
+                    <input type="submit" name="deletebotton" value="刪除">
+                </form>
+                </br>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
